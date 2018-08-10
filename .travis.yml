@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: peaceful-plains-39955
+  provider: heroku
+  api_key:
+    secure: xnZGSRpKbilW1RujZRraAn6+W+vG5OCNY9Iv0hbc5lHlpTC/4uE1kCaPjLWV+hMB13KWvRgkp49xBcO6QG5jWupT2KrX5rXhdyB3ldrIaiSU84uvvZjPjk3ZFYqYoZsNgV2JoWqYb4s69p6b/6l+1DXWKLvuhqSnO9gh/B0IRWbJI1SC8lxie3I3Yr14gaMLMMAfKwH8VlVfOzKbJsaAmoSvwk6YuykytV8q89x+KlXOKmF9sBpvBdMLMDyM3gMrXXFcTWXjqzWE/quCQtz0mZHO76Cz864kTaopFnH2Mmt1VC7p2McbDruyI8FDc3sc8AmrSQqKcGtXEtpkzKUMRpSunH7x4+VEhL38A9nxN9cnoF3v2V43YQctPf6vX4NWF3hymbKEdwIxPDDsZjiUhPBt/nuWAu2lAUjoXS4WiO5owR2WdgBqMIT3m3bxdJ5dGurbltsjvcJFvC1Bm4DNQanV9GpKEZWctbUO043rzfZRukEXSCbtO5uSOA1+ghokG8sm+XY+R+YVO2nXLczg1/FRNer3BQfEZdmBsfvzh0JJ8H/b8iy3264WwY3cbabSAGjx453a5oIHQGnWcbiS+QxtJEzrMjn2qurNX3I1FB7pbI8wcwcwZWMpedzTGJVlzgDR9YM7vr/DZIcoEPnTm9n3Vt2JQkO15P13mkFFF4U=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: tcw5038/node-shopping-list-integration-tests
